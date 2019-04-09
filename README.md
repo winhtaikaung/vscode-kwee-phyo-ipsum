@@ -4,10 +4,9 @@ Generates and inserts kwee phyo ipsum text into Visual Studio Code.
 
 # Motivation
 
-Getting Bored of traditional `သီဟိုဠ်မှ ဉာဏ်ကြီးရှင်သည် အာယုဝဍ္ဎနဆေးညွှန်းစာကို ဇလွန်ဈေးဘေး ဗာဒံပင်ထက် အဓိဋ္ဌာန်လျက် ဂဃနဏဖတ်ခဲ့သည်။` on placeholder for Burmese language. Why not we create placeholder excerpt speech from beloved Kwee Phyo? 
+Getting Bored of traditional `သီဟိုဠ်မှ ဉာဏ်ကြီးရှင်သည် အာယုဝဍ္ဎနဆေးညွှန်းစာကို ဇလွန်ဈေးဘေး ဗာဒံပင်ထက် အဓိဋ္ဌာန်လျက် ဂဃနဏဖတ်ခဲ့သည်။` on placeholder for Burmese language. Why not we create placeholder excerpt sayings from beloved Yangon Region Chief Minister Phyo Min Thein (Kwee phyo)? 
 
-
-**P.S** This plugin is just a plugin nothing related with any government agencies or organisations. :v: :v:
+**P.S** This plugin is just a plugin nothing related with any government agencies or organisations.And again please take the place holder texts as text. :v: :v:
 
 # Confession
 
@@ -33,7 +32,32 @@ Press F1 type Kwee Phyo and select to insert either a line or paragraph.
 - [ ]   Add excerpt quotes and speech as external lib dependency
 - [ ]   Make Intellij Plugin 
 
-## Contributing
+# FAQs
+
+Q : ZawGyi support ?
+
+A : Definitely not.
+
+
+Q : Backed by any government organisation ?
+
+A : Definitely not.
+
+Q : Any party supporter?
+
+A : Hardcore **Char Party** Supporter.
+
+# Sayings Credit
+Special Thanks go to those websites where I can excerpt the sayings.
+
+  - [Missumaburmese](http://www.mizzimaburmese.com/)
+  - [Irrawaddy](https://burma.irrawaddy.com/)
+  - [Eleven Myanmar](https://elevenmyanmar.com/)
+  - [7daydaily](http://www.7daydaily.com/)
+  - [Kumudranews](http://kumudranews.com/)
+
+
+# Contributing
 
 1. Fork it
 
