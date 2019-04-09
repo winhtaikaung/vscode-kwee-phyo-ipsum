@@ -1,21 +1,21 @@
 {
-  "name": "lorem-ipsum",
-  "displayName": "Lorem ipsum",
-  "description": "Generates and inserts lorem ipsum text",
-  "version": "1.2.0",
+  "name": "kwee-phyo-ipsum",
+  "displayName": "Kwee Phyo Ipsum",
+  "description": "Generates and inserts excerpt of kwee phyo speech as ipsum text",
+  "version": "1.0.0",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Tyriar/vscode-lorem-ipsum/issues"
+    "url": "https://github.com/winhtaikaung/vscode-kwee-phyo-ipsum/issues"
   },
   "scripts": {
     "test": "mocha"
   },
-  "homepage": "https://github.com/Tyriar/vscode-lorem-ipsum",
+  "homepage": "https://github.com/winhtaikaung/vscode-kwee-phyo-ipsum",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Tyriar/vscode-lorem-ipsum"
+    "url": "https://github.com/winhtaikaung/vscode-kwee-phyo-ipsum"
   },
-  "publisher": "Tyriar",
+  "publisher": "Win Htaik Aung",
   "engines": {
     "vscode": "0.10.x"
   },
@@ -25,31 +25,33 @@
   "activationEvents": [
     "onCommand:lorem-ipsum.line",
     "onCommand:lorem-ipsum.paragraph",
-    "onCommand:lorem-ipsum.multipleParagraphs"
+    "onCommand:lorem-ipsum.multipleParagraphs",
+    "onCommand:lorem-ipsum.multipleLines"
   ],
   "main": "./extension",
   "contributes": {
     "commands": [
       {
         "command": "lorem-ipsum.line",
-        "title": "Lorem Ipsum: Insert a line"
+        "title": "Kwee Phyo Ipsum: Insert a line"
       },
       {
         "command": "lorem-ipsum.paragraph",
-        "title": "Lorem Ipsum: Insert a paragraph"
+        "title": "Kwee Phyo Ipsum: Insert a paragraph"
       },
       {
         "command": "lorem-ipsum.multipleParagraphs",
-        "title": "Lorem Ipsum: Insert multiple paragraphs"
+        "title": "Kwee Phyo Ipsum: Insert multiple paragraphs"
+      },
+      {
+        "command": "lorem-ipsum.multipleLines",
+        "title": "Kwee Phyo Ipsum: Insert multiple lines"
       }
     ]
   },
   "devDependencies": {
     "vscode": "0.10.x",
     "mocha": "~2.3.3"
-  },
-  "dependencies": {
-    "lorem-ipsum": "^1.0.3"
   },
   "icon": "images/icon.png"
 }
