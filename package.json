@@ -23,28 +23,28 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:lorem-ipsum.line",
-    "onCommand:lorem-ipsum.paragraph",
-    "onCommand:lorem-ipsum.multipleParagraphs",
-    "onCommand:lorem-ipsum.multipleLines"
+    "onCommand:kwee-phyo-ipsum.line",
+    "onCommand:kwee-phyo-ipsum.paragraph",
+    "onCommand:kwee-phyo-ipsum.multipleParagraphs",
+    "onCommand:kwee-phyo-ipsum.multipleLines"
   ],
   "main": "./extension",
   "contributes": {
     "commands": [
       {
-        "command": "lorem-ipsum.line",
+        "command": "kwee-phyo-ipsum.line",
         "title": "Kwee Phyo Ipsum: Insert a line"
       },
       {
-        "command": "lorem-ipsum.paragraph",
+        "command": "kwee-phyo-ipsum.paragraph",
         "title": "Kwee Phyo Ipsum: Insert a paragraph"
       },
       {
-        "command": "lorem-ipsum.multipleParagraphs",
+        "command": "kwee-phyo-ipsum.multipleParagraphs",
         "title": "Kwee Phyo Ipsum: Insert multiple paragraphs"
       },
       {
-        "command": "lorem-ipsum.multipleLines",
+        "command": "kwee-phyo-ipsum.multipleLines",
         "title": "Kwee Phyo Ipsum: Insert multiple lines"
       }
     ]

@@ -37,7 +37,7 @@ function generator({ count, unit, random, suffix }) {
   }
 
   if (options.random && options.unit === "paragraphs") {
-    var rand = randomInteger(1, paragraphs.length);
+    var rand = randomInteger(0, paragraphs.length);
     word.push(paragraphs[rand]);
     return word.join(options.suffix);
   }

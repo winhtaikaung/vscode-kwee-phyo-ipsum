@@ -3,14 +3,14 @@ var loremIpsum = require("./kwephyoIpsum");
 
 function activate(context) {
   var commands = [
-    vscode.commands.registerCommand("lorem-ipsum.line", generateLine),
-    vscode.commands.registerCommand("lorem-ipsum.paragraph", generateParagraph),
+    vscode.commands.registerCommand("kwee-phyo-ipsum.line", generateLine),
+    vscode.commands.registerCommand("kwee-phyo-ipsum.paragraph", generateParagraph),
     vscode.commands.registerCommand(
-      "lorem-ipsum.multipleParagraphs",
+      "kwee-phyo-ipsum.multipleParagraphs",
       generateMultipleParagraphs
     ),
     vscode.commands.registerCommand(
-      "lorem-ipsum.multipleLines",
+      "kwee-phyo-ipsum.multipleLines",
       generateMultipleLines
     )
   ];
