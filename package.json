@@ -15,7 +15,7 @@
     "type": "git",
     "url": "https://github.com/winhtaikaung/vscode-kwee-phyo-ipsum"
   },
-  "publisher": "Win Htaik Aung",
+  "publisher": "WinHtaikAung",
   "engines": {
     "vscode": "0.10.x"
   },
